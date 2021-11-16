@@ -1,0 +1,93 @@
+h1 {
+    color: #eedf5c;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 2px 1px 2px #8a4c99;
+}
+
+body {
+    background-color: #d41ada2a;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    font-family: Tahoma;
+    margin: 1em;
+}
+
+.NovaTarefa {
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+#tarefa {
+    padding: 4px;
+    width: 400px;
+}
+
+#lista1 {
+    text-align: left;
+}
+
+.addbotton, .botdel {
+    margin-left: 7px;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.addbotton {
+    background-color: #eedf5cbe;
+    color: #952caf;
+    box-shadow: 2px 2px 2px #8a8a89;
+    font-size: 15px;
+}
+
+.addbotton:hover {
+    background-color: #eedf5c60;
+    text-shadow: none;
+}
+
+.botdel {
+    background-color: #952caf8f;
+    color: #eedf5c;
+    font-size: 10px;
+}
+
+.botdel:hover {
+    background-color: #952caf71;
+    text-shadow: none;
+}
+
+.Lista {
+    color: #5a5858;
+}
+
+ul {
+    padding: 15px;
+    margin: 0;
+}
+
+li {
+    padding: 5px 0px 5px 0px;
+    list-style-type: none;
+}
+
+.checked {
+    text-decoration: line-through solid #ff0000;
+    font-style: bold;
+    color: #3b3b3bb9;
+}
+
+a {
+    font: italic;
+}
+
+footer {
+    color: #969696;
+    font: 10px tahoma;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
